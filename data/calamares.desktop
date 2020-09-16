@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Instalar Killer-OS Linux
+GenericName=Instalador en vivo
+Comment=Instale el sistema operativo en el disco
+Exec=/usr/bin/calamares_polkit %f
+Icon=calamares
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=Qt;System;
