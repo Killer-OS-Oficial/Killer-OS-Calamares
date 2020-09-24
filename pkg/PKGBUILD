@@ -32,7 +32,7 @@ prepare() {
     sed -i -e 's/"Install configuration files" OFF/"Install configuration files" ON/' CMakeLists.txt
 
     # change branding
-    sed -i -e "s/default/Killer-OS/g" src/branding/CMakeLists.txt
+    sed -i -e "s/default/killeros/g" src/branding/CMakeLists.txt
 
 }
 
